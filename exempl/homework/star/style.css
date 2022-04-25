@@ -1,0 +1,17 @@
+
+.star {
+    background: url('/exempl/homework/star/img/star0.png') no-repeat; /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 150px; /* Ширина рисунка */
+    height: 150px; /*  Высота рисунка */
+	float: left;
+	;
+	
+   }
+   .star:hover {
+    background: url('/exempl/homework/star/img/star1.png') no-repeat; 
+	display: block; /*  Рисунок как блочный элемент */
+    width: 150px; /* Ширина рисунка */
+    height: 150px; /*  Высота рисунка */
+	float: left;
+   }
