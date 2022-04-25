@@ -38,8 +38,8 @@ body {
 /* верстка */
 .link{
 	color: green;
-    border-right: solid red 3px;
     padding: 5px 10px 10px 0;
+
 }
 .link5{
 	color: green;
@@ -47,6 +47,12 @@ body {
 }
 .link2{
 	color: green;
-    border-right: solid red 3px;
     padding: 5px 10px 10px 10px;
+}
+.img{
+	width: 3px;
+	height: 25px;
+}
+.link:hover{
+	color: aqua
 }
