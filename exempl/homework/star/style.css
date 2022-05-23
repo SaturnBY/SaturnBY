@@ -1,17 +1,24 @@
 
 .star {
     background: url('/exempl/homework/star/img/star0.png') no-repeat; /* Путь к файлу с исходным рисунком  */
-    display: block; /*  Рисунок как блочный элемент */
-    width: 150px; /* Ширина рисунка */
+     /*  Рисунок как блочный элемент */
+    width: 180px; /* Ширина рисунка */
     height: 150px; /*  Высота рисунка */
-	float: left;
+	float: right;
 	;
 	
    }
-   .star:hover {
+   .star:hover{
     background: url('/exempl/homework/star/img/star1.png') no-repeat; 
-	display: block; /*  Рисунок как блочный элемент */
-    width: 150px; /* Ширина рисунка */
+	 /*  Рисунок как блочный элемент */
+    width: 180px; /* Ширина рисунка */
     height: 150px; /*  Высота рисунка */
-	float: left;
+	float:right;
+   }
+   .star:hover~.star{
+    background: url('/exempl/homework/star/img/star1.png') no-repeat; 
+	 /*  Рисунок как блочный элемент */
+    width: 180px; /* Ширина рисунка */
+    height: 150px; /*  Высота рисунка */
+	float:right;
    }
