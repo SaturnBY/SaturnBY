@@ -8,29 +8,29 @@
 	padding: 0 15px;
 	margin: 0 auto;
 }
-.conteiner {
+.conteiner{
 	height: 400px;
 	
 }
-.bio {
+.bio{
 	position: absolute; left: 700px; top: 100px; z-index: 1;
 }
-.man {
+.man{
 	position: absolute; left: 950px; top: 100px; z-index: 1;
 }
-.no {
+.no{
 	position: absolute; left: 800px; top: 100px; z-index: 2;
 }
-.yin {
+.yin{
 	position: absolute; left: 820px; top: 250px; z-index: 1;
 }
-.bio:hover {
+.bio:hover{
 	z-index: 3
 }
-.man:hover {
+.man:hover{
 	z-index: 3
 }
-.no:hover {
+.no:hover{
 	z-index: 4
 }
 .yin:hover{
